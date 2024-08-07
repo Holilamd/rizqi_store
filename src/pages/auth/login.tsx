@@ -1,7 +1,7 @@
 const LoginPage = () => {
     return (
         <div>
-            Login Page
+            Login Rizqi Store
         </div>
     )
 }
