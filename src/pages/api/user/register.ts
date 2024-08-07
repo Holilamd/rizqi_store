@@ -7,7 +7,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             if (status) {
                 res.status(200).json({ status : true,statusCode:200, message : 'success' });
             } else {
-                res.status(200).json({ status : false,statusCode:400, message : 'failed' });
+                res.status(400).json({ status : false,statusCode:400
+                    , message : 'failed' });
             }
         });
     } else {

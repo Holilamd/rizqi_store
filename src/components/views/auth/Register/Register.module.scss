@@ -5,6 +5,10 @@
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+    &__error {
+        color: #fd3131;
+        margin-bottom: 10px;
+    }
     &__title {
         font-size: 32px;
         margin-bottom: 10px;
@@ -33,4 +37,11 @@
             }
         }
     }
+    &__link {
+       a {
+            // text-decoration: none;
+            color: #23bebe;
+            // font-weight: bold;
+       }
+    }   
 }
